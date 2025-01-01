@@ -1,0 +1,1 @@
+This repository contains code and data used for XXX. CaseHOLD.ipynb labels the dataset, CaseHOLD-Analysis.ipynb conducts various investigations into the quality of the answers, and CaseHOLD-Anonymization conducts the citation anonymization experiments.
