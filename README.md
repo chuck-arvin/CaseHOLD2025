@@ -1,3 +1,5 @@
-This repository contains code and data used for XXX. CaseHOLD.ipynb labels the dataset, CaseHOLD-Analysis.ipynb conducts various investigations into the quality of the answers, and CaseHOLD-Anonymization conducts the citation anonymization experiments.
+This repository contains code and data used for Understanding Legal Reasoning With LLMs: A Systematic Study of Performance, Scale, and Memorization. The work assesses how well off the shelf large language models perform on the CaseHOLD dataset.
 
-casehold-test.csv contains the original CaseHOLD test dataset, plus the labels from 7 LLM models. casehold-anonymization.csv does roughly the same, with additional columnns for the anonymized prompts and responses.
+We generate labels from several LLMs in three notebooks, CaseHOLD-{Llama, Nova, OAI}Labels.ipynb. The resulting labels are written out as files, casehold_test_{llama, nova, openai}_labels.csv. Those labels are analyzed in CaseHOLD-Analysis.ipynb.
+
+Our citation anonymization tests take place in CaseHOLD-Anonymization.ipynb, with the raw data in casehold_test_with_anonymization_oai.csv.
